@@ -1,0 +1,15 @@
+li {
+  background-color: burlywood;
+}
+
+details {
+  cursor: default;
+}
+
+.doned {
+  color: green;
+}
+
+.not-doned {
+  color: yellow;
+}

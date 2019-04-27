@@ -1,0 +1,7 @@
+<li>
+  Name: {{ userItem.firstName + ' ' + userItem.secondName }},
+  <details *ngFor="let homework of userItem.homeWorks"
+    [ngClass]="{'doned': homework.status === 'done', 'not-doned': homework.status !== 'done'}">
+    homework: {{ homework.topic + ' is ' + homework.status + ' '}}
+  </details>
+</li>
